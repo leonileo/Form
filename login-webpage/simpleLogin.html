@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="example.css">
+</head>
+<body id="body">
+    <div class="main">
+        <h1>Login <span>Form</span></h1>
+        <button id="login">Sign In</button>
+    </div>
+    <div class="center">
+        <div class="login" id="form" style="display: none;">
+            <button id="rmvlogin">X</button> <h1>Login</h1>
+            <p id="error1"></p>
+            <div class="uN">
+                <label for="username">Username</label>
+                <input id="userName" type="text" name="username" placeholder="username" required>    
+            </div>
+            <div class="uP">
+                <label for="pass" tooltip="pas">lastName</label>
+                <input id="lastName" type="text" name="pass" placeholder="lastname" required><br>    
+            </div>
+            <button id="submit" type="submit">Submit</button>
+        </div>
+    </div>
+
+    <div class="msg-box" id="msg-box">
+        <h2 id="remove" >Hello</h2>
+    </div>
+
+    <footer>
+        <h3>&copy;AllRight Rserved</h3>
+    </footer>
+    <script src="example.js"></script>
+</body>
+</html>
